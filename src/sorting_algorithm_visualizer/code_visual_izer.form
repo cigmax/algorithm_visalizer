@@ -26,14 +26,40 @@
           <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="125" max="-2" attributes="0"/>
-                      <Component id="TitleNameVisualizer" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="jTextField1" min="-2" pref="343" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="125" max="-2" attributes="0"/>
+                              <Component id="TitleNameVisualizer" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                              <Component id="jTextField1" min="-2" pref="343" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
+                              <Component id="StepLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Stepx_1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="OfLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="Stepy_2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="NextStep" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="PreviousStep" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="Exit_Button" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="6" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="HoldingBox" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
                               <Component id="FirstBox" min="-2" max="-2" attributes="0"/>
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="SecondBox" min="-2" max="-2" attributes="0"/>
@@ -46,32 +72,7 @@
                               <EmptySpace type="unrelated" max="-2" attributes="0"/>
                               <Component id="SixthBox" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="HoldingBox" alignment="1" min="-2" max="-2" attributes="0"/>
                       </Group>
-                  </Group>
-              </Group>
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Group type="102" alignment="1" attributes="0">
-                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <Component id="NextStep" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="PreviousStep" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
-                      <EmptySpace max="32767" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="SeventhBox" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -80,7 +81,6 @@
                       <Component id="NinthBox" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Component id="TenthBox" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -93,35 +93,39 @@
               <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="TitleNameVisualizer" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="StepLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Stepx_1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="OfLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Stepy_2" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="NextStep" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="PreviousStep" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="NextStep" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="PreviousStep" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="Exit_Button" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Component id="jTextField1" alignment="0" min="-2" pref="106" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
-              <Component id="HoldingBox" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="HoldingBox" min="-2" pref="33" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="FirstBox" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="SecondBox" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="ThirdBox" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="FourthBox" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="FithBox" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="SixthBox" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="SeventhBox" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="EighthBox" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="NinthBox" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="TenthBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="FirstBox" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="SecondBox" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="ThirdBox" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="FourthBox" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="FithBox" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="SixthBox" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="SeventhBox" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="EighthBox" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="NinthBox" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="TenthBox" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="115" max="32767" attributes="0"/>
+              <EmptySpace pref="84" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -132,22 +136,22 @@
         <Property name="text" type="java.lang.String" value="(Insert Sorting name here) Sorting"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel1">
+    <Component class="javax.swing.JLabel" name="StepLabel">
       <Properties>
         <Property name="text" type="java.lang.String" value="Step"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel2">
+    <Component class="javax.swing.JLabel" name="Stepx_1">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel2"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel3">
+    <Component class="javax.swing.JLabel" name="OfLabel">
       <Properties>
         <Property name="text" type="java.lang.String" value="of"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel4">
+    <Component class="javax.swing.JLabel" name="Stepy_2">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel4"/>
       </Properties>
@@ -223,6 +227,11 @@
     <Component class="javax.swing.JLabel" name="SixthBox">
       <Properties>
         <Property name="text" type="java.lang.String" value="Number6"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="Exit_Button">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Exit"/>
       </Properties>
     </Component>
   </SubComponents>
