@@ -179,7 +179,9 @@ public static boolean InputIntegrityChecker(){
     //will return true or false
 }
 
-static void
+static void sortingMethod(){    //CHANGE TO Toggle BUTTONS
+
+}
 
 
 
