@@ -57,7 +57,7 @@ public class FirstFrame extends javax.swing.JFrame {
 
         jToggleButton4.setText("Bubble");
 
-        ErrorCodeMainMenu.setText("ERROR CODE BOX");
+        ErrorCodeMainMenu.setText("ERROR CODE BOX");  //change to blank
 
         Start.setText("Start");
 
@@ -154,13 +154,35 @@ public class FirstFrame extends javax.swing.JFrame {
     private javax.swing.JToggleButton jToggleButton4;
     // End of variables declaration//GEN-END:variables
 
+    public int sortingMethodChoice = 0;
 
 public static void InputGet(){
-    
+boolean integrity = true;
+    //sends to integrity checker, if return true proceed to inputset, if false then halt and display error
+
+
+    //if return false
+    if integrity == false {
+        ErrorCodeMainMenu.setText("Input is invalid check input for errors");
+
+    }
+    else{
+        //connect to InputSet here
+    }
+
 }
 public static void InputSet(){
     
 }
+
+public static boolean InputIntegrityChecker(){
+    //will return true or false
+}
+
+static void
+
+
+
 
 
 }

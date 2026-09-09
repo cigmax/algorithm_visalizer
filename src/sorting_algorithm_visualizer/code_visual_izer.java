@@ -332,4 +332,23 @@ public class code_visual_izer extends javax.swing.JFrame {
     private javax.swing.JLabel labelbox8;
     private javax.swing.JLabel labelbox9;
     // End of variables declaration//GEN-END:variables
+
+
+
+
+
+
+
+    //need selection, insertion, quicksort, bubblesort
+    // have stops during to shows steps and explain how
+    //need formula to calculate the total number of steps needed
+
+
+
+
+
+
+
+
+
 }

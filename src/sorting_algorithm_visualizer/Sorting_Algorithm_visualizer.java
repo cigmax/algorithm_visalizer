@@ -18,3 +18,13 @@ public class Sorting_Algorithm_visualizer {
     }
     
 }
+//1. First frame will collect input and verify integrity of information
+/*
+will need a event manager
+    information integity check
+    check the sorting method selected
+ */
+
+
+//2. code visualizer will calculate the steps needed and display the steps with instructions
+
