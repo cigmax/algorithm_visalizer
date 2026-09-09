@@ -48,6 +48,16 @@ public class code_visual_izer extends javax.swing.JFrame {
         SeventhBox = new javax.swing.JLabel();
         SixthBox = new javax.swing.JLabel();
         Exit_Button = new javax.swing.JToggleButton();
+        label1box = new javax.swing.JLabel();
+        labelbox2 = new javax.swing.JLabel();
+        labelbox3 = new javax.swing.JLabel();
+        labelbox4 = new javax.swing.JLabel();
+        labelbox5 = new javax.swing.JLabel();
+        labelbox6 = new javax.swing.JLabel();
+        labelbox7 = new javax.swing.JLabel();
+        labelbox8 = new javax.swing.JLabel();
+        labelbox9 = new javax.swing.JLabel();
+        labelbox10 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -92,6 +102,26 @@ public class code_visual_izer extends javax.swing.JFrame {
 
         Exit_Button.setText("Exit");
 
+        label1box.setText("     1");
+
+        labelbox2.setText("2");
+
+        labelbox3.setText("3");
+
+        labelbox4.setText("4");
+
+        labelbox5.setText("jLabel5");
+
+        labelbox6.setText("jLabel6");
+
+        labelbox7.setText("jLabel7");
+
+        labelbox8.setText("jLabel8");
+
+        labelbox9.setText("jLabel9");
+
+        labelbox10.setText("jLabel10");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -126,25 +156,68 @@ public class code_visual_izer extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(HoldingBox)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(FirstBox)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(FirstBox)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(6, 6, 6)
+                                        .addComponent(label1box)))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(SecondBox)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(SecondBox)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                        .addComponent(labelbox2, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(21, 21, 21)))
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(ThirdBox)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                        .addComponent(labelbox3, javax.swing.GroupLayout.PREFERRED_SIZE, 18, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(21, 21, 21)))
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(FourthBox)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                        .addComponent(labelbox4, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(20, 20, 20)))
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(FithBox)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(6, 6, 6)
+                                        .addComponent(labelbox5)))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(ThirdBox)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(FourthBox)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(FithBox)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(SixthBox)))
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(6, 6, 6)
+                                        .addComponent(labelbox6))
+                                    .addComponent(SixthBox))))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(SeventhBox)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(SeventhBox)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(6, 6, 6)
+                                .addComponent(labelbox7)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(EighthBox)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(EighthBox)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(6, 6, 6)
+                                .addComponent(labelbox8)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(NinthBox)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(NinthBox)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(6, 6, 6)
+                                .addComponent(labelbox9)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(TenthBox)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(6, 6, 6)
+                                .addComponent(labelbox10))
+                            .addComponent(TenthBox))))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -180,7 +253,19 @@ public class code_visual_izer extends javax.swing.JFrame {
                     .addComponent(EighthBox, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(NinthBox, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(TenthBox, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(84, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(label1box)
+                    .addComponent(labelbox2)
+                    .addComponent(labelbox3)
+                    .addComponent(labelbox4)
+                    .addComponent(labelbox5)
+                    .addComponent(labelbox6)
+                    .addComponent(labelbox7)
+                    .addComponent(labelbox8)
+                    .addComponent(labelbox9)
+                    .addComponent(labelbox10))
+                .addContainerGap(56, Short.MAX_VALUE))
         );
 
         pack();
@@ -236,5 +321,15 @@ public class code_visual_izer extends javax.swing.JFrame {
     private javax.swing.JLabel ThirdBox;
     private javax.swing.JLabel TitleNameVisualizer;
     private javax.swing.JTextField jTextField1;
+    private javax.swing.JLabel label1box;
+    private javax.swing.JLabel labelbox10;
+    private javax.swing.JLabel labelbox2;
+    private javax.swing.JLabel labelbox3;
+    private javax.swing.JLabel labelbox4;
+    private javax.swing.JLabel labelbox5;
+    private javax.swing.JLabel labelbox6;
+    private javax.swing.JLabel labelbox7;
+    private javax.swing.JLabel labelbox8;
+    private javax.swing.JLabel labelbox9;
     // End of variables declaration//GEN-END:variables
 }
