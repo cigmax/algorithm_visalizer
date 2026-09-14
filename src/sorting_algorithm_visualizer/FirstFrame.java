@@ -139,6 +139,12 @@ public class FirstFrame extends javax.swing.JFrame {
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(() -> new FirstFrame().setVisible(true));
+
+//Action listeners
+        InsertionToggle.addActionListener(this);
+
+
+
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
@@ -154,7 +160,13 @@ public class FirstFrame extends javax.swing.JFrame {
     private javax.swing.JToggleButton jToggleButton4;
     // End of variables declaration//GEN-END:variables
 
-    public int sortingMethodChoice = 0;
+    public string SortingMethod = "";
+
+
+    public void actionPerformed(ActionEvent e){
+        //numClicks++;
+        //text.setText("Button Clicked" +):
+    }
 
 public static void InputGet(){
 boolean integrity = true;
@@ -179,7 +191,10 @@ public static boolean InputIntegrityChecker(){
     //will return true or false
 }
 
-static void sortingMethod(){    //CHANGE TO Toggle BUTTONS
+static void sortingMethodSetting(){    //Have error box display what sorting method has been choosen if at all
+    // error box will stay blank until choosen
+
+
 
 }
 
