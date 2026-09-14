@@ -355,7 +355,10 @@ public class code_visual_izer extends javax.swing.JFrame {
 
     //exit button will trigger end of program
 
-    //need to figure out how to implement "previous step" button
+    //Will store numbers in 2D array, size of array will be calculated based off the number of steps
+    //if previous button is hit it will send the number from that array row to the code which will then trigger the
+    //sorting and explaination
+    //will use significantly less resources and will increase effeciency
 
 
 
