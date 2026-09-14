@@ -33,7 +33,7 @@ public class FirstFrame extends javax.swing.JFrame {
         InsertionToggle = new javax.swing.JToggleButton();
         SelectionToggle = new javax.swing.JToggleButton();
         QuickSortToggle = new javax.swing.JToggleButton();
-        jToggleButton4 = new javax.swing.JToggleButton();
+        BubbleSorting = new javax.swing.JToggleButton();
         ErrorCodeMainMenu = new javax.swing.JLabel();
         Start = new javax.swing.JButton();
 
@@ -58,8 +58,8 @@ public class FirstFrame extends javax.swing.JFrame {
         QuickSortToggle.setText("Quick");
         QuickSortToggle.addActionListener(this::QuickSortToggleActionPerformed);
 
-        jToggleButton4.setText("Bubble");
-        jToggleButton4.addActionListener(this::jToggleButton4ActionPerformed);
+        BubbleSorting.setText("Bubble");
+        BubbleSorting.addActionListener(this::BubbleSortingActionPerformed);
 
         ErrorCodeMainMenu.setText("ERROR CODE BOX");
 
@@ -75,7 +75,7 @@ public class FirstFrame extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(ErrorCodeMainMenu)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(jToggleButton4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(BubbleSorting, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(QuickSortToggle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(SelectionToggle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(InsertionToggle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -110,7 +110,7 @@ public class FirstFrame extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(QuickSortToggle)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jToggleButton4)
+                .addComponent(BubbleSorting)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 21, Short.MAX_VALUE)
                 .addComponent(Start)
                 .addGap(18, 18, 18)
@@ -139,9 +139,9 @@ public class FirstFrame extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_QuickSortToggleActionPerformed
 
-    private void jToggleButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton4ActionPerformed
+    private void BubbleSortingActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BubbleSortingActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jToggleButton4ActionPerformed
+    }//GEN-LAST:event_BubbleSortingActionPerformed
 
     private void StartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StartActionPerformed
         // TODO add your handling code here:
@@ -179,6 +179,7 @@ public class FirstFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JToggleButton BubbleSorting;
     private javax.swing.JLabel EnterNumbers;
     private javax.swing.JLabel ErrorCodeMainMenu;
     private javax.swing.JToggleButton InsertionToggle;
@@ -188,7 +189,6 @@ public class FirstFrame extends javax.swing.JFrame {
     private javax.swing.JToggleButton SelectionToggle;
     private javax.swing.JButton Start;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JToggleButton jToggleButton4;
     // End of variables declaration//GEN-END:variables
 
     public String SortingMethod = "";

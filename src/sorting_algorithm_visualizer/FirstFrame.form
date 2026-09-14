@@ -28,7 +28,7 @@
               <Group type="103" groupAlignment="1" attributes="0">
                   <Component id="ErrorCodeMainMenu" min="-2" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                      <Component id="jToggleButton4" max="32767" attributes="0"/>
+                      <Component id="BubbleSorting" max="32767" attributes="0"/>
                       <Component id="QuickSortToggle" max="32767" attributes="0"/>
                       <Component id="SelectionToggle" max="32767" attributes="0"/>
                       <Component id="InsertionToggle" alignment="0" max="32767" attributes="0"/>
@@ -72,7 +72,7 @@
               <EmptySpace max="-2" attributes="0"/>
               <Component id="QuickSortToggle" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jToggleButton4" min="-2" max="-2" attributes="0"/>
+              <Component id="BubbleSorting" min="-2" max="-2" attributes="0"/>
               <EmptySpace pref="21" max="32767" attributes="0"/>
               <Component id="Start" min="-2" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -142,12 +142,12 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="QuickSortToggleActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JToggleButton" name="jToggleButton4">
+    <Component class="javax.swing.JToggleButton" name="BubbleSorting">
       <Properties>
         <Property name="text" type="java.lang.String" value="Bubble"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton4ActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BubbleSortingActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="ErrorCodeMainMenu">
