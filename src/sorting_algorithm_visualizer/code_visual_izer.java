@@ -346,6 +346,27 @@ public class code_visual_izer extends javax.swing.JFrame {
 
 
 
+//calculates the number of steps
+    public static int InsertionSortStepsCalc ( int[] Input ){
+        int Steps=0;  //will count the number of steps for the array
+
+        for (int i = 0; i < Input.length; i++){
+            int key = arr[i];
+            int j = i - 1;
+            Steps++;
+            while (j >= 0 && Input[j] > key){
+                Input[j+1] = arr[j];
+                j=j-1;
+                Steps++;
+            }
+            input[j+1] = key;
+
+        }
+        Stepy2.setText(Steps);
+        return Steps;
+    }
+
+
 
 
 
