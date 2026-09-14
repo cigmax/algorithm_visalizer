@@ -34,7 +34,7 @@ public class FirstFrame extends javax.swing.JFrame {
         SelectionToggle = new javax.swing.JToggleButton();
         QuickSortToggle = new javax.swing.JToggleButton();
         BubbleSorting = new javax.swing.JToggleButton();
-        ErrorCodeMainMenu = new javax.swing.JLabel();
+        MainManuTextBox = new javax.swing.JLabel();
         Start = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -61,7 +61,7 @@ public class FirstFrame extends javax.swing.JFrame {
         BubbleSorting.setText("Bubble");
         BubbleSorting.addActionListener(this::BubbleSortingActionPerformed);
 
-        ErrorCodeMainMenu.setText("ERROR CODE BOX");
+        MainManuTextBox.setText("ERROR CODE BOX");
 
         Start.setText("Start");
         Start.addActionListener(this::StartActionPerformed);
@@ -73,7 +73,7 @@ public class FirstFrame extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(ErrorCodeMainMenu)
+                    .addComponent(MainManuTextBox)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addComponent(BubbleSorting, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(QuickSortToggle, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -114,7 +114,7 @@ public class FirstFrame extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 21, Short.MAX_VALUE)
                 .addComponent(Start)
                 .addGap(18, 18, 18)
-                .addComponent(ErrorCodeMainMenu)
+                .addComponent(MainManuTextBox)
                 .addGap(27, 27, 27))
         );
 
@@ -122,29 +122,35 @@ public class FirstFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void InsertionToggleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_InsertionToggleActionPerformed
-        
-        
-        
-        
+        MainManuTextBox.setText("Insertion Sorting Selected");
+        SortingMethod = "Insertion";
     }//GEN-LAST:event_InsertionToggleActionPerformed
 
     private void SelectionToggleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SelectionToggleActionPerformed
-
-
+        MainManuTextBox.setText("Selection Sorting Selected");
+        SortingMethod = "Selection";
 
         // TODO add your handling code here:
     }//GEN-LAST:event_SelectionToggleActionPerformed
 
     private void QuickSortToggleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_QuickSortToggleActionPerformed
+       MainManuTextBox.setText("Quick Sorting Selected");
+       SortingMethod = "Quick";
+
         // TODO add your handling code here:
     }//GEN-LAST:event_QuickSortToggleActionPerformed
 
     private void BubbleSortingActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BubbleSortingActionPerformed
+        MainManuTextBox.setText("Bubble Sorting Selected");
+        SortingMethod = "Bubble";
         // TODO add your handling code here:
     }//GEN-LAST:event_BubbleSortingActionPerformed
 
     private void StartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StartActionPerformed
-        // TODO add your handling code here:
+
+        //Sends info to second frame and closes this frame after triggereing second frame
+
+
     }//GEN-LAST:event_StartActionPerformed
 
     /**
@@ -181,7 +187,7 @@ public class FirstFrame extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JToggleButton BubbleSorting;
     private javax.swing.JLabel EnterNumbers;
-    private javax.swing.JLabel ErrorCodeMainMenu;
+    private javax.swing.JLabel MainManuTextBox;
     private javax.swing.JToggleButton InsertionToggle;
     private javax.swing.JTextArea NumberInput;
     private javax.swing.JToggleButton QuickSortToggle;
@@ -206,7 +212,7 @@ boolean integrity = true;
 
     //if return false
     if integrity == false {
-        ErrorCodeMainMenu.setText("Input is invalid check input for errors");
+        MainManuTextBox.setText("Input is invalid check input for errors");
 
     }
     else{
