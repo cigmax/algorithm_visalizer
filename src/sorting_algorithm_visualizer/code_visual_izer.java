@@ -343,6 +343,10 @@ public class code_visual_izer extends javax.swing.JFrame {
     // have stops during to shows steps and explain how
     //need formula to calculate the total number of steps needed
 
+    //exit button will trigger end of program
+
+    //need to figure out how to implement "previous step" button
+
 
 
 

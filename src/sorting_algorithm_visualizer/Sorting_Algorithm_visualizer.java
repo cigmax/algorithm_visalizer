@@ -29,6 +29,8 @@ will need a event manager
 //2. code visualizer will calculate the steps needed and display the steps with instructions
 /*
 will calculate the total number of steps
+need to explain each steps
+    will need to detect what is being done in sorting algo and trigger the correct text
 
  */
 

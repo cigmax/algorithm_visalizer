@@ -183,7 +183,10 @@ static void sortingMethod(){    //CHANGE TO Toggle BUTTONS
 
 }
 
+static void ExplatationTextbox(){
 
+    //needs to look at steps that will follow and show the correct text from trigger
+}
 
 
 
