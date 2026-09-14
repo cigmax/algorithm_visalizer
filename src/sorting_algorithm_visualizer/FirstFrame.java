@@ -50,16 +50,21 @@ public class FirstFrame extends javax.swing.JFrame {
         SelectTextbox.setText("Select a sorting option below");
 
         InsertionToggle.setText("Insertion");
+        InsertionToggle.addActionListener(this::InsertionToggleActionPerformed);
 
         SelectionToggle.setText("Selection");
+        SelectionToggle.addActionListener(this::SelectionToggleActionPerformed);
 
         QuickSortToggle.setText("Quick");
+        QuickSortToggle.addActionListener(this::QuickSortToggleActionPerformed);
 
         jToggleButton4.setText("Bubble");
+        jToggleButton4.addActionListener(this::jToggleButton4ActionPerformed);
 
-        ErrorCodeMainMenu.setText("ERROR CODE BOX");  //change to blank
+        ErrorCodeMainMenu.setText("ERROR CODE BOX");
 
         Start.setText("Start");
+        Start.addActionListener(this::StartActionPerformed);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -116,6 +121,32 @@ public class FirstFrame extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
+    private void InsertionToggleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_InsertionToggleActionPerformed
+        
+        
+        
+        
+    }//GEN-LAST:event_InsertionToggleActionPerformed
+
+    private void SelectionToggleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SelectionToggleActionPerformed
+
+
+
+        // TODO add your handling code here:
+    }//GEN-LAST:event_SelectionToggleActionPerformed
+
+    private void QuickSortToggleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_QuickSortToggleActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_QuickSortToggleActionPerformed
+
+    private void jToggleButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jToggleButton4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jToggleButton4ActionPerformed
+
+    private void StartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StartActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_StartActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -141,7 +172,7 @@ public class FirstFrame extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(() -> new FirstFrame().setVisible(true));
 
 //Action listeners
-        InsertionToggle.addActionListener(this);
+       // InsertionToggle.addActionListener(this);
 
 
 
@@ -160,7 +191,7 @@ public class FirstFrame extends javax.swing.JFrame {
     private javax.swing.JToggleButton jToggleButton4;
     // End of variables declaration//GEN-END:variables
 
-    public string SortingMethod = "";
+    public String SortingMethod = "";
 
 
     public void actionPerformed(ActionEvent e){

@@ -116,21 +116,39 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Insertion"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="InsertionToggleActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="FirstFrame_InsertionToggle"/>
+      </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="SelectionToggle">
       <Properties>
         <Property name="text" type="java.lang.String" value="Selection"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SelectionToggleActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="FirstFrame_SelectionToggle"/>
+      </AuxValues>
     </Component>
     <Component class="javax.swing.JToggleButton" name="QuickSortToggle">
       <Properties>
         <Property name="text" type="java.lang.String" value="Quick"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="QuickSortToggleActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JToggleButton" name="jToggleButton4">
       <Properties>
         <Property name="text" type="java.lang.String" value="Bubble"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jToggleButton4ActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="ErrorCodeMainMenu">
       <Properties>
@@ -141,6 +159,9 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="Start"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="StartActionPerformed"/>
+      </Events>
     </Component>
   </SubComponents>
 </Form>

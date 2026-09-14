@@ -75,6 +75,7 @@ public class code_visual_izer extends javax.swing.JFrame {
         NextStep.addActionListener(this::NextStepActionPerformed);
 
         PreviousStep.setText("Prev");
+        PreviousStep.addActionListener(this::PreviousStepActionPerformed);
 
         jTextField1.setText("Explaination");
 
@@ -101,6 +102,7 @@ public class code_visual_izer extends javax.swing.JFrame {
         SixthBox.setText("Number6");
 
         Exit_Button.setText("Exit");
+        Exit_Button.addActionListener(this::Exit_ButtonActionPerformed);
 
         label1box.setText("     1");
 
@@ -274,6 +276,14 @@ public class code_visual_izer extends javax.swing.JFrame {
     private void NextStepActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NextStepActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_NextStepActionPerformed
+
+    private void PreviousStepActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PreviousStepActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_PreviousStepActionPerformed
+
+    private void Exit_ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Exit_ButtonActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Exit_ButtonActionPerformed
 
     /**
      * @param args the command line arguments
