@@ -274,20 +274,18 @@ public class code_visual_izer extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void NextStepActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NextStepActionPerformed
-        // TODO add your handling code here:
+        // TODO add Next step action:
     }//GEN-LAST:event_NextStepActionPerformed
 
     private void PreviousStepActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PreviousStepActionPerformed
-        // TODO add your handling code here:
+        // TODO add Prevoius step action
     }//GEN-LAST:event_PreviousStepActionPerformed
 
     private void Exit_ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Exit_ButtonActionPerformed
-        // TODO add your handling code here:
+        // TODO Add exit button functionality
     }//GEN-LAST:event_Exit_ButtonActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
+    //Main will just start the program
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
@@ -347,19 +345,19 @@ public class code_visual_izer extends javax.swing.JFrame {
 
 
 //calculates the number of steps
-    public static int InsertionSortStepsCalc ( int[] Input ){
-        int Steps=0;  //will count the number of steps for the array
+    public static int InsertionSortStepsCalc(int[] Input) {
+        int Steps = 0;  //will count the number of steps for the array
 
-        for (int i = 0; i < Input.length; i++){
-            int key = arr[i];
+        for (int i = 0; i < Input.length; i++) {
+            int key = Input[i];
             int j = i - 1;
             Steps++;
             while (j >= 0 && Input[j] > key){
-                Input[j+1] = arr[j];
+                Input[j+1] = Input[j];
                 j=j-1;
                 Steps++;
             }
-            input[j+1] = key;
+            Input[j+1] = key;
 
         }
         Stepy2.setText(Steps);
@@ -370,23 +368,19 @@ public class code_visual_izer extends javax.swing.JFrame {
 
 
 
-    //need selection, insertion, quicksort, bubblesort
-    // have stops during to shows steps and explain how
-    //need formula to calculate the total number of steps needed
-
-    //exit button will trigger end of program
-
-    //Will store numbers in 2D array, size of array will be calculated based off the number of steps
-    //if previous button is hit it will send the number from that array row to the code which will then trigger the
-    //sorting and explaination
-    //will use significantly less resources and will increase effeciency
-
-
-
-
-
-
-
+    /*
+    TODO: need selection, insertion Step, quicksort, bubblesort
+     have stops during to shows steps and explain how
+    need formula to calculate the total number of steps needed
+    TODO exit button will trigger end of program
+    Will store numbers in 2D array, size of array will be calculated based off the number of steps
+    if previous button is hit it will send the number from that array row to the code which will then trigger the
+    sorting and explaination
+    will use significantly less resources and will increase effeciency
+    TODO create array for the storing of elements
+    TODO Ideas
+    use conditional break for the sorting
+    */
 
 
 }

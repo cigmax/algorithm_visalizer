@@ -200,11 +200,6 @@ public class FirstFrame extends javax.swing.JFrame {
     public String SortingMethod = "";
 
 
-    public void actionPerformed(ActionEvent e){
-        //numClicks++;
-        //text.setText("Button Clicked" +):
-    }
-
 public static void InputGet(){
 boolean integrity = true;
     //sends to integrity checker, if return true proceed to inputset, if false then halt and display error
@@ -221,15 +216,15 @@ boolean integrity = true;
 
 }
 public static void InputSet(){
-    
+    //TODO will collect info from textbox and add to array
 }
 
 public static boolean InputIntegrityChecker(){
     //will return true or false
 }
 
-static void sortingMethodSetting(){    //Have error box display what sorting method has been choosen if at all
-    // error box will stay blank until choosen
+static void sortingMethodSetting(){    // TODO Have error box display what sorting method has been choosen if at all
+    // TODO error box will stay blank until choosen
 
 
 
