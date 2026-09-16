@@ -273,18 +273,7 @@ public class code_visual_izer extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void NextStepActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NextStepActionPerformed
-        // TODO add Next step action:
-    }//GEN-LAST:event_NextStepActionPerformed
 
-    private void PreviousStepActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PreviousStepActionPerformed
-        // TODO add Prevoius step action
-    }//GEN-LAST:event_PreviousStepActionPerformed
-
-    private void Exit_ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Exit_ButtonActionPerformed
-        // Ends program ent
-        System.exit(0);
-    }//GEN-LAST:event_Exit_ButtonActionPerformed
 
     //Main will just start the program
     public static void main(String args[]) {
@@ -366,21 +355,33 @@ public class code_visual_izer extends javax.swing.JFrame {
         return Steps;
     }
 
-    public static void InsertionTriggerStep1(){  //May need to change void but i dont think i will will be called multiple times
+
+    public static void ExplationText(){}
+
+
+    public static void InsertionRun(){
         /*
         will be called multiple time
         //TODO Sets holder box text to value of first int in array
-          TODO Explanation method connection and trigger
-          TODO May connect to step 2-4 depending on design
-        */
-    }
 
-    public static void InsertionTriggerStep234(){
-        /*
+
         TODO figure out while loop or for loop with number based off of simulated loop like steps
         TODO connect to seperate methods that will explain the sorting
-         */
+        */
     }
+    private void NextStepActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NextStepActionPerformed
+        // TODO add Next step action:
+    }//GEN-LAST:event_NextStepActionPerformed
+
+    private void PreviousStepActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_PreviousStepActionPerformed
+        // TODO add Prevoius step action
+    }//GEN-LAST:event_PreviousStepActionPerformed
+
+    private void Exit_ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Exit_ButtonActionPerformed
+        // Ends program ent
+        System.exit(0);
+    }//GEN-LAST:event_Exit_ButtonActionPerformed
+
 
 
     /*

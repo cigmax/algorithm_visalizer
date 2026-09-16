@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50f29367-e0de-4e45-b3be-882bb0f0ff97" name="Changes" comment="ver0.03">
+    <list default="true" id="50f29367-e0de-4e45-b3be-882bb0f0ff97" name="Changes" comment="ver0.035 UPDATED TODO LIST AND IDEAS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sorting_algorithm_visualizer/code_visual_izer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting_algorithm_visualizer/code_visual_izer.java" afterDir="false" />
     </list>
@@ -165,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1789590676438</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="ver0.035 UPDATED TODO LIST AND IDEAS">
+      <option name="closed" value="true" />
+      <created>1789592269646</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1789592269646</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -192,7 +200,8 @@
     <MESSAGE value="ver0.01" />
     <MESSAGE value="ver0.02" />
     <MESSAGE value="ver0.03" />
-    <option name="LAST_COMMIT_MESSAGE" value="ver0.03" />
+    <MESSAGE value="ver0.035 UPDATED TODO LIST AND IDEAS" />
+    <option name="LAST_COMMIT_MESSAGE" value="ver0.035 UPDATED TODO LIST AND IDEAS" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
