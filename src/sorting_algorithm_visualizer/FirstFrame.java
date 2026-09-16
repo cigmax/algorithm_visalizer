@@ -121,37 +121,8 @@ public class FirstFrame extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void InsertionToggleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_InsertionToggleActionPerformed
-        MainManuTextBox.setText("Insertion Sorting Selected");
-        SortingMethod = "Insertion";
-    }//GEN-LAST:event_InsertionToggleActionPerformed
-
-    private void SelectionToggleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SelectionToggleActionPerformed
-        MainManuTextBox.setText("Selection Sorting Selected");
-        SortingMethod = "Selection";
-
-        // TODO add your handling code here:
-    }//GEN-LAST:event_SelectionToggleActionPerformed
-
-    private void QuickSortToggleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_QuickSortToggleActionPerformed
-       MainManuTextBox.setText("Quick Sorting Selected");
-       SortingMethod = "Quick";
-
-        // TODO add your handling code here:
-    }//GEN-LAST:event_QuickSortToggleActionPerformed
-
-    private void BubbleSortingActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BubbleSortingActionPerformed
-        MainManuTextBox.setText("Bubble Sorting Selected");
-        SortingMethod = "Bubble";
-        // TODO add your handling code here:
-    }//GEN-LAST:event_BubbleSortingActionPerformed
-
-    private void StartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StartActionPerformed
-
-        //Sends info to second frame and closes this frame after triggereing second frame
 
 
-    }//GEN-LAST:event_StartActionPerformed
 
     /**
      * @param args the command line arguments
@@ -199,8 +170,47 @@ public class FirstFrame extends javax.swing.JFrame {
 
     public String SortingMethod = "";
 
+    private void InsertionToggleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_InsertionToggleActionPerformed
+        MainManuTextBox.setText("Insertion Sorting Selected");
+        SortingMethod = "Insertion";
+    }
 
-public static void InputGet(){
+    public static void SortingSendMethod(String SortingMethod){
+        if(SortingMethod.equals("Insertion")){
+
+        }
+    }
+
+
+
+    private void SelectionToggleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SelectionToggleActionPerformed
+        MainManuTextBox.setText("Selection Sorting Selected");
+        SortingMethod = "Selection";
+
+        // TODO add your handling code here:
+    }//GEN-LAST:event_SelectionToggleActionPerformed
+
+    private void QuickSortToggleActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_QuickSortToggleActionPerformed
+        MainManuTextBox.setText("Quick Sorting Selected");
+        SortingMethod = "Quick";
+
+        // TODO add your handling code here:
+    }//GEN-LAST:event_QuickSortToggleActionPerformed
+
+    private void BubbleSortingActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BubbleSortingActionPerformed
+        MainManuTextBox.setText("Bubble Sorting Selected");
+        SortingMethod = "Bubble";
+        // TODO add your handling code here:
+    }//GEN-LAST:event_BubbleSortingActionPerformed
+
+    private void StartActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StartActionPerformed
+
+        //Sends info to second frame and closes this frame after triggereing second frame
+
+
+    }//GEN-LAST:event_StartActionPerformed
+
+    public static void InputGet(){
 boolean integrity = true;
     //sends to integrity checker, if return true proceed to inputset, if false then halt and display error
 

@@ -282,7 +282,8 @@ public class code_visual_izer extends javax.swing.JFrame {
     }//GEN-LAST:event_PreviousStepActionPerformed
 
     private void Exit_ButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Exit_ButtonActionPerformed
-        // TODO Add exit button functionality
+        // Ends program ent
+        System.exit(0);
     }//GEN-LAST:event_Exit_ButtonActionPerformed
 
     //Main will just start the program
@@ -324,7 +325,7 @@ public class code_visual_izer extends javax.swing.JFrame {
     private javax.swing.JLabel SixthBox;
     private javax.swing.JLabel StepLabel;
     private javax.swing.JLabel Stepx_1;
-    private javax.swing.JLabel Stepy_2;
+    private static javax.swing.JLabel Stepy_2;
     private javax.swing.JLabel TenthBox;
     private javax.swing.JLabel ThirdBox;
     private javax.swing.JLabel TitleNameVisualizer;
@@ -342,6 +343,7 @@ public class code_visual_izer extends javax.swing.JFrame {
     // End of variables declaration//GEN-END:variables
 
 
+    //TODO configure code to pull from Sorting method from First Frame
 
 
 //calculates the number of steps
@@ -360,26 +362,39 @@ public class code_visual_izer extends javax.swing.JFrame {
             Input[j+1] = key;
 
         }
-        Stepy2.setText(Steps);
+        Stepy_2.setText(String.valueOf(Steps));
         return Steps;
     }
 
+    public static void InsertionTriggerStep1(){  //May need to change void but i dont think i will will be called multiple times
+        /*
+        will be called multiple time
+        //TODO Sets holder box text to value of first int in array
+          TODO Explanation method connection and trigger
+          TODO May connect to step 2-4 depending on design
+        */
+    }
 
-
+    public static void InsertionTriggerStep234(){
+        /*
+        TODO figure out while loop or for loop with number based off of simulated loop like steps
+        TODO connect to seperate methods that will explain the sorting
+         */
+    }
 
 
     /*
     TODO: need selection, insertion Step, quicksort, bubblesort
      have stops during to shows steps and explain how
-    need formula to calculate the total number of steps needed
-    TODO exit button will trigger end of program
     Will store numbers in 2D array, size of array will be calculated based off the number of steps
     if previous button is hit it will send the number from that array row to the code which will then trigger the
     sorting and explaination
     will use significantly less resources and will increase effeciency
     TODO create array for the storing of elements
     TODO Ideas
-    use conditional break for the sorting
+    use conditional break for the sorting/ not likely
+    maybe a separate method that loops?
+    TODO CALL MEDONE
     */
 
 
