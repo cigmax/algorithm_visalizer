@@ -394,6 +394,10 @@ public class code_visual_izer extends javax.swing.JFrame {
     TODO Ideas
     use conditional break for the sorting/ not likely
     maybe a separate method that loops?
+    Need a single method to flow
+    USE WAIT() AND NOTIFY() TO CONTROL THE STEPS
+    PREVIOUS BUTTON WILL LIKELY NEED TO BE REPLANNED
+    PROBABLY USE A IF BREAK
     TODO CALL MEDONE
     */
 
