@@ -364,17 +364,24 @@ public class code_visual_izer extends javax.swing.JFrame {
     }
 
 
-    public static void InsertionRun(){
+    public static void InsertionRun(int[] Input){
         /*
         Wait / notify will be used
-        can just repurpose the insertion sorting by inserting waits
-
         */
 
-       // for(int i = 0; i < Input.length; i++){
+        for(int i = 0; i < Input.length; i++){
+            int key = Input[i];
+            int j = i - 1;
+                //wait
+            while(j>= 0 && Input[j]> key){
+                Input[j+1] = Input[j];
+                j--;
+                //wait
+            }
 
-
-        //}
+            Input[j+1] = key;
+            //wait
+        }
 
 
 
@@ -404,7 +411,32 @@ public class code_visual_izer extends javax.swing.JFrame {
     */
 
 
+class SepareteInsertionTesting implements Runnable {
 
 
+    }
+
+
+}
+
+class AnimationController{
+    private boolean stepRequested = false;
+
+    public synchronized void waitForStep(){
+        stepRequested = false;
+        while(!stepRequested){
+            try {
+                wait();
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+                System.out.println("Sorting Interupted");
+            }
+        }
+    }
+
+    public synchronized void nextStep(){
+        stepRequested = true;
+        notifyAll();
+    }
 
 }
