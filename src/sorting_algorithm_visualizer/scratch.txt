@@ -1,0 +1,48 @@
+Ideas for Main{
+
+}
+
+Ideas for Visualizer{
+
+
+if previous button is hit it will send the number from that array row to the code which will then trigger the
+    sorting and explaination
+}
+
+Implemented ideas for Visulizer{
+USE WAIT() AND NOTIFY() TO CONTROL THE STEPS
+}
+
+Ideas for first frame{
+Will store numbers in 2D array, size of array will be calculated based off the number of steps
+Need to send to visualizer frame
+}
+
+
+Ideas for full code{
+/*
+Keep master list of all steps in a 2D array and create a secondary,
+ 2D array that will be inserted to the sorting methods
+Could potentially provide a option for previous step implementation
+need to be careful with indexing 2D array due to potential misteps between the first and second rows when implemented
+*/
+}
+
+ideas diregarded{
+ use conditional break for the sorting/ not likely
+        maybe a separate method that loops?
+        Need a single method to flow
+}
+
+
+
+
+
+
+
+
+
+Scratch ideas
+
+
+
