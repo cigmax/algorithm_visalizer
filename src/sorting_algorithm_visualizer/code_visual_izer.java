@@ -356,18 +356,28 @@ public class code_visual_izer extends javax.swing.JFrame {
     }
 
 
-    public static void ExplationText(){}
+    public static void ExplationText(){
+        /*
+        TODO ADD EXPLAINATION
+         */
+
+    }
 
 
     public static void InsertionRun(){
         /*
-        will be called multiple time
-        //TODO Sets holder box text to value of first int in array
+        Wait / notify will be used
+        can just repurpose the insertion sorting by inserting waits
 
-
-        TODO figure out while loop or for loop with number based off of simulated loop like steps
-        TODO connect to seperate methods that will explain the sorting
         */
+
+       // for(int i = 0; i < Input.length; i++){
+
+
+        //}
+
+
+
     }
     private void NextStepActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NextStepActionPerformed
         // TODO add Next step action:
@@ -387,20 +397,14 @@ public class code_visual_izer extends javax.swing.JFrame {
     /*
     TODO: need selection, insertion Step, quicksort, bubblesort
      have stops during to shows steps and explain how
-    Will store numbers in 2D array, size of array will be calculated based off the number of steps
-    if previous button is hit it will send the number from that array row to the code which will then trigger the
-    sorting and explaination
-    will use significantly less resources and will increase effeciency
+
     TODO create array for the storing of elements
-    TODO Ideas
-    use conditional break for the sorting/ not likely
-    maybe a separate method that loops?
-    Need a single method to flow
-    USE WAIT() AND NOTIFY() TO CONTROL THE STEPS
-    PREVIOUS BUTTON WILL LIKELY NEED TO BE REPLANNED
-    PROBABLY USE A IF BREAK
+
     TODO CALL MEDONE
     */
+
+
+
 
 
 }
